@@ -3,8 +3,7 @@
     let numeroMaximo = 100;
     let naoRepetir = true;
 
-    const historicoSorteios = new Set();
-
+    const historicoSorteios = new Set(); 
     const sortearNumero = (quantidade, minimo, maximo) => {
       const totalPossiveis = maximo - minimo + 1;
 
@@ -27,7 +26,7 @@
           sorteados.add(numero);
         }
       }
-
+      
       return Array.from(sorteados);
     };
 
