@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorteador de Números</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <div class="ok">
+    <main class="sessao-1">
+      <header>
+        <img src="assets/logo1.svg" alt="" />
+      </header>
+      <div class="um">
+        <h2>Online - gratuito</h2>
+        <h1>
+          SORTEADOR <br />
+          DE NÚMEROS
+        </h1>
+        <div class="lista">
+          <ul>
+            <li>
+              <h3>
+                <img src="assets/Frame.svg" alt="" /> Como funciona o sorteador
+                de números?
+              </h3>
+              <p>
+                O sorteador utiliza um algoritmo de geração aleatória para criar
+                números dentro do intervalo <br />
+                especificado pelo usuário.
+              </p>
+            </li>
+
+            <li>
+              <h3>
+                <img src="assets/Frame.svg" alt="" /> Posso escolher o intervalo
+                dos números?
+              </h3>
+              <p>
+                Sim, você pode definir os valores mínimo e máximo para o
+                intervalo dos números sorteados.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <aside class="sessao-2">
+      <div class="dois">
+        <h3>Quero sortear:</h3>
+        <p>
+          Defina o intervalo e a quantidade de números, <br> clique em "Sortear" e
+          veja os resultados na tela. <br> É rápido e fácil!
+        </p>
+      </div>
+      <div class="jogo">
+        <div class="numeros">
+        <div class="cem">
+          <label for="">NÚMEROS</label>
+          <input type="number" />
+          </div>
+          <div class="cem">
+          <label for="">DE</label>
+          <input type="number" />
+          </div>
+          <div class="cem">
+          <label for="">DE</label>
+        <input type="number" />
+        </div> 
+
+     
+
+        </div>
+   <div class="resultado" id="resultado"></div>
+        </div>
+           <button onclick="executarSorteio()">Sortear</button>
+      </div>
+
+      
+    </aside>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

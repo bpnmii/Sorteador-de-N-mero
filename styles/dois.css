@@ -1,0 +1,70 @@
+.sessao-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 25px;
+}
+
+.dois {
+  align-items: center;
+  justify-content: center;
+  justify-items: self-start;
+  h3 {
+    font: var(--label-medium);
+    color: var(--content-primary);
+  }
+  p {
+    font: var(--paragraph-medium);
+    color: var(--content-secondary);
+  }
+}
+
+.jogo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  label {
+    font: var(--label-medium);
+    color: var(--content-primary);
+  }
+  input {
+    border: none;
+    border-radius: 10px;
+    width: 3rem;
+    padding: 1rem;
+    background-color: var(--background-tertiary);
+    color: aliceblue;
+  }
+}
+.numeros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.cem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  width: 20rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--background-tertiary);
+  color: aliceblue;
+}
+
+.resultado{
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font: var(--label-medium);
+}

@@ -1,0 +1,27 @@
+header{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.um{
+    margin-top: 50px;
+    margin-left: 50px;
+ h2{
+    font: var(--overline);
+    color: var(--content-tertiary);
+ }
+ h1{
+    font: var(--display-large);
+    color: var(--content-primary);
+ }
+ .lista{
+    h3{
+        font: var(--paragraph-medium);
+        color: var(--content-brand);
+    }
+    p{
+        font: var(--paragraph-small);
+        color: var(--content-secondary);
+    }
+ }
+}
